@@ -1,0 +1,50 @@
+{
+  "name": "was-google-universal-mcp",
+  "version": "1.0.0",
+  "description": "Universal Google API MCP server — access any Google REST API (Google Cloud, BigQuery, Google Analytics, Google Tag Manager, Search Console, Sheets, etc.) via a single universal tool (excluding Google Ads).",
+  "type": "module",
+  "bin": {
+    "was-google-universal-mcp": "./cli.js"
+  },
+  "files": [
+    "cli.js",
+    "server.js",
+    "auth.js",
+    "config.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node cli.js",
+    "auth": "node cli.js auth"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "google",
+    "google-cloud",
+    "google-analytics",
+    "google-tag-manager",
+    "gtm",
+    "ga4",
+    "claude",
+    "cursor",
+    "antigravity"
+  ],
+  "author": "Web Analytics Solution",
+  "license": "MIT",
+  "homepage": "https://github.com/mnsmasum62786/was-google-universal-mcp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mnsmasum62786/was-google-universal-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mnsmasum62786/was-google-universal-mcp/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  }
+}
